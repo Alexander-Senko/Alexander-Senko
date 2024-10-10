@@ -1,0 +1,4 @@
+RSpec/ImplicitSubject:
+  Enabled: false
+RSpec/EmptyExampleGroup:
+  Enabled: false # FIXME
