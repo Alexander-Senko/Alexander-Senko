@@ -1,0 +1,201 @@
+inherit_mode:
+  merge:
+    - Exclude
+
+AllCops:
+  NewCops: enable
+
+Layout/IndentationStyle:
+  EnforcedStyle: tabs
+Layout/IndentationWidth:
+  Width: 1
+
+Layout/ParameterAlignment:
+  EnforcedStyle:    with_fixed_indentation
+  IndentationWidth: 2
+Layout/ArgumentAlignment:
+  EnforcedStyle:    with_fixed_indentation
+  IndentationWidth: 2
+Layout/ArrayAlignment:
+  EnforcedStyle:    with_fixed_indentation
+  IndentationWidth: 2
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle:      table
+Layout/FirstArrayElementIndentation:
+  IndentationWidth: 2
+Layout/FirstHashElementIndentation:
+  IndentationWidth: 2
+Layout/FirstParameterIndentation:
+  IndentationWidth: 2
+Layout/AssignmentIndentation:
+  IndentationWidth: 2
+Layout/MultilineArrayBraceLayout:
+  EnforcedStyle: new_line
+Layout/MultilineHashBraceLayout:
+  EnforcedStyle: new_line
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle:    indented
+  IndentationWidth: 2
+Layout/MultilineOperationIndentation:
+  EnforcedStyle:    indented
+  IndentationWidth: 2
+Layout/ClosingParenthesisIndentation:
+  Enabled: false # FIXME
+Layout/BlockAlignment:
+  EnforcedStyleAlignWith: start_of_block
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: start_of_line
+Layout/CommentIndentation:
+  AllowForAlignment: true
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: false
+Layout/SpaceInsideParens:
+  Enabled: false
+Layout/SpaceAfterMethodName:
+  Enabled: false
+Layout/SpaceInLambdaLiteral:
+  Enabled: false
+Layout/ExtraSpacing:
+  Enabled: false
+Layout/SpaceAroundOperators:
+  Enabled: false
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false # FIXME
+Layout/ClassStructure:
+  Enabled: true
+
+Style/AndOr:
+  Enabled: false
+Style/Not:
+  Enabled: false
+Style/For:
+  Enabled: false
+Style/ArrayJoin:
+  Enabled: false
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses_except_multiline
+Style/StabbyLambdaParentheses:
+  EnforcedStyle: require_no_parentheses
+Style/SuperWithArgsParentheses:
+  Enabled: false
+Style/NestedParenthesizedCalls:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
+Style/LambdaCall:
+  Enabled: false
+Style/BlockDelimiters:
+  Enabled: false
+Style/NumberedParameters:
+  Enabled: false
+Style/NumberedParametersLimit:
+  Max: 2
+Style/SafeNavigationChainLength:
+  Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: false
+Style/RedundantDoubleSplatHashBraces:
+  Enabled: false
+Style/CommentedKeyword:
+  Enabled: false
+Style/MultilineBlockChain:
+  Enabled: false
+Style/MultilineIfModifier:
+  Enabled: false
+Style/EndlessMethod:
+  Enabled: false
+Style/RescueModifier:
+  Enabled: false
+Style/RescueStandardError:
+  Enabled: false
+Style/Alias:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/AccessModifierDeclarations:
+  Enabled: false
+Style/PerlBackrefs:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%':  "''"
+    '%r': "''"
+Style/NumericLiterals:
+  AllowedPatterns:
+    - '\d{4}_\d{2}_\d{2}_\d{6}' # timestamp
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: consistent_comma
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+Style/ItBlockParameter:
+  Enabled: false # FIXME
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
+
+Lint/MissingCopEnableDirective:
+  Enabled: false
+Lint/AmbiguousOperator:
+  Enabled: false
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: false
+Lint/AmbiguousRegexpLiteral:
+  Enabled: false
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+Lint/UnusedBlockArgument:
+  Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
+Lint/OrAssignmentToConstant:
+  Enabled: false
+Lint/DuplicateBranch:
+  Enabled: false
+
+Metrics/BlockLength:
+  inherit_mode:
+    merge:
+      - AllowedMethods
+  AllowedMethods:
+    - concern
+    - concerning
+    - class_methods
+Metrics/MethodLength:
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+    - method_call
+  Enabled: false # FIXME
+Metrics/AbcSize:
+  CountRepeatedAttributes: false
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+Gemspec/RequireMFA:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Exclude:
+    - test/**/*_test.rb
+    - spec/**/*_spec.rb
+Lint/EmptyBlock:
+  Exclude:
+    - test/**/*_test.rb
+    - spec/**/*_spec.rb
