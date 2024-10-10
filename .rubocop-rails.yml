@@ -1,0 +1,29 @@
+plugins:
+  - rubocop-rails
+
+Style/Documentation:
+  Exclude:
+    - '{db,test,spec}/**/*.rb'
+
+Lint/ConstantDefinitionInBlock:
+  inherit_mode:
+    merge:
+      - AllowedMethods
+  AllowedMethods:
+    - concern
+    - concerning
+Metrics/BlockLength:
+  inherit_mode:
+    merge:
+      - AllowedMethods
+  AllowedMethods:
+    - concern
+    - concerning
+Naming/PredicateName:
+  inherit_mode:
+    merge:
+      - AllowedMethods
+  AllowedMethods:
+    - has_one
+    - has_many
+    - has_and_belongs_to_many
