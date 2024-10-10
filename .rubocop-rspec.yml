@@ -1,0 +1,21 @@
+plugins:
+  - rubocop-rspec
+
+RSpec/SharedExamples:
+  Enabled: false
+RSpec/NestedGroups:
+  Enabled: false
+RSpec/ImplicitSubject:
+  Enabled: false
+RSpec/NamedSubject:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+RSpec/ScatteredSetup:
+  Enabled: false
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/RepeatedExampleGroupBody:
+  Enabled: false
+RSpec/EmptyExampleGroup:
+  Enabled: false # FIXME
