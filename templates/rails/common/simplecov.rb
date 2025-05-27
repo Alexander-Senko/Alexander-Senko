@@ -1,31 +1,17 @@
-commit_message << <<~TEXT
-	* SimpleCov
-TEXT
-
-gem_for :test, 'simplecov', require: false do
-	if %w[ rspec rspec-rails ].any? { gem? it }
-		prepend_file '.rspec', <<~CONFIG
-			--require simplecov
-		CONFIG
-	end
-end
-
-create_file '.simplecov', <<~RUBY
-	SimpleCov.module_eval do
+insert_into_file '.simplecov', <<~RUBY, after: "SimpleCov.module_eval do\n"
 	  profiles.load "rails"
 	
-	  enable_coverage :branch
-	  enable_coverage :eval
+	  group "Models",      "app/models"
+	  group "Presenters",  "app/presenters"
+	  group "Controllers", "app/controllers"
+	  group "Responders",  "app/responders"
+	  group "Helpers",     "app/helpers"
+	  group "Jobs",        "app/jobs"
+	  group "Mailers",     "app/mailers"
+	  group "Channels",    "app/channels"
+	  group "Mailboxes",   "app/mailboxes"
+	  group "Config",      "config"
+	  group "Generators",  "lib/generators"
+	  group "Lib",         "lib"
 	
-	  skip "/spec/"
-	end
 RUBY
-
-append_file 'spec/spec_helper.rb', <<~RUBY
-	
-	SimpleCov.start
-RUBY
-
-append_file '.gitignore', <<~IGNORE
-	/coverage/
-IGNORE
