@@ -8,6 +8,15 @@ A specialized backend engineer with over 20 years of experience (since the early
 
 ---
 
+### 🤖 Shared AI Guidelines
+
+Reusable modular guidelines for AI agents:
+
+- [Overview](./docs/ai-guidelines/README.md)
+- [Usage from project / RubyMine / GitHub Copilot](./docs/ai-guidelines/usage.md)
+
+---
+
 ### 💻 Core Technical Competencies
 
 - **Languages:** Ruby (Expert), Crystal, Elixir, SQL, Python, etc.
