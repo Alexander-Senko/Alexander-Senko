@@ -1,6 +1,6 @@
 # Rails Engine Module
 
-Use this together with `general.md`.
+Use this together with `modules/general.md`.
 
 ## Engine boundaries
 

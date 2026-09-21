@@ -2,7 +2,7 @@
 
 ## 1) In a project repository
 
-1. Copy `general.md` and one project-type module into your repository docs.
+1. Copy `modules/general.md` and one project-type module into your repository docs.
 2. Start with existing standards/best-practice sources your team already trusts (framework conventions, existing skill modules/workflows, internal playbooks).
 3. Add project-specific rules only for missing context or intentional exceptions (branch policy, CI commands, architecture notes).
 4. Keep one canonical instruction entry point in the repo (for example `AGENTS.md` or `.github/copilot-instructions.md`).
@@ -11,7 +11,7 @@
 
 Use these files as your reusable instruction source:
 
-- Keep them in a local snippets folder, then paste the relevant module pair (`general + project-type`) into task prompts.
+- Keep them in a local snippets folder, then paste the relevant module pair (`modules/general + project-type`) into task prompts.
 - If your RubyMine AI plugin supports custom/global instructions, store the same module pair there and keep project-specific details in-repo.
 
 ## 3) In GitHub Copilot
