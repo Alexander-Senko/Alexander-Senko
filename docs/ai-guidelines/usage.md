@@ -3,8 +3,9 @@
 ## 1) In a project repository
 
 1. Copy `general.md` and one project-type module into your repository docs.
-2. Add project-specific rules (branch policy, CI commands, architecture notes).
-3. Keep one canonical instruction entry point in the repo (for example `AGENTS.md` or `.github/copilot-instructions.md`).
+2. Start with existing standards/best-practice sources your team already trusts (framework conventions, existing skill modules/workflows, internal playbooks).
+3. Add project-specific rules only for missing context or intentional exceptions (branch policy, CI commands, architecture notes).
+4. Keep one canonical instruction entry point in the repo (for example `AGENTS.md` or `.github/copilot-instructions.md`).
 
 ## 2) In RubyMine
 
@@ -19,8 +20,9 @@ Recommended setup:
 
 1. Add a `.github/copilot-instructions.md` file in each target project.
 2. Put `general` rules there, then append the relevant project-type module.
-3. Add project-specific conventions (test commands, architecture, naming patterns).
-4. Review periodically and update when conventions evolve.
+3. Reference existing standards and skill-based workflows first; keep local instructions focused on project-specific behavior.
+4. Add project-specific conventions (test commands, architecture, naming patterns).
+5. Review periodically and update when conventions evolve.
 
 Optional modular setup for larger repos:
 

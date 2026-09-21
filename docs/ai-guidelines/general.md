@@ -1,5 +1,11 @@
 # General AI Guidelines
 
+## Standards and best practices
+
+- Prefer existing standards, established conventions, and proven patterns before introducing custom instructions.
+- Reuse available skill modules/workflows where possible instead of rewriting equivalent guidance.
+- Add custom rules only when they clarify project-specific constraints or intentional deviations.
+
 ## Workflow
 
 - Align commit strategy, commit message style, and task update style with existing project history.
