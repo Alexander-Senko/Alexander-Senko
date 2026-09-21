@@ -8,6 +8,18 @@ A specialized backend engineer with over 20 years of experience (since the early
 
 ---
 
+### 🤖 Shared AI Guidelines
+
+Reusable, modular AI guideline templates are available in [`docs/ai-guidelines`](docs/ai-guidelines/README.md), including:
+
+- General guidance
+- Ruby gem-specific module
+- Rails engine-specific module
+- Rails application-specific module
+- Usage instructions for project repositories, RubyMine, and GitHub Copilot
+
+---
+
 ### 💻 Core Technical Competencies
 
 - **Languages:** Ruby (Expert), Crystal, Elixir, SQL, Python, etc.
