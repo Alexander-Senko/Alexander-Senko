@@ -1,0 +1,14 @@
+.rubocop.yml
+  h_3633b6af39cc3f 71-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f51ffed09190f2d2d73f6c2b3287a523cb2e082b",
+  "prompts": {},
+  "humans": {
+    "h_3633b6af39cc3f": {
+      "author": "Alexander Senko <Alexander.Senko@gmail.com>"
+    }
+  }
+}
