@@ -1,0 +1,14 @@
+.rubocop-rspec.yml
+  h_3633b6af39cc3f 6-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8c2cf8b43d0c70747507937094050c96e5d5f0fb",
+  "prompts": {},
+  "humans": {
+    "h_3633b6af39cc3f": {
+      "author": "Alexander Senko <Alexander.Senko@gmail.com>"
+    }
+  }
+}
