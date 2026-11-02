@@ -1,0 +1,21 @@
+.rubocop.yml
+  s_430f5c13c1cbf0::t_c2c47963a3287a 150
+  s_430f5c13c1cbf0::t_40dd011048a225 148
+  s_430f5c13c1cbf0::t_d4fed04b177233 146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c13655c199c76404d26c8d8d475b20a4aaff592d",
+  "prompts": {},
+  "sessions": {
+    "s_430f5c13c1cbf0": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1793527217560",
+        "model": "unknown"
+      },
+      "human_author": "Alexander Senko <Alexander.Senko@gmail.com>"
+    }
+  }
+}
