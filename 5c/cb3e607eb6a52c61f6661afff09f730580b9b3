@@ -1,0 +1,50 @@
+templates/rails/common/rspec/method.rb
+  s_2a8e4e07cb629c::t_8c132ee8f10b3f 1
+templates/gem/rspec.rb
+  s_2a8e4e07cb629c::t_1f28ce4273bb0b 6
+  s_2a8e4e07cb629c::t_d0c1b036d7d8c5 3-5
+  s_2a8e4e07cb629c::t_1b9c7981b94a26 7-9
+  h_3633b6af39cc3f 1-2,10-30
+templates/rails/common/rspec/its.rb
+  s_2a8e4e07cb629c::t_be9660946a758a 1
+templates/rails/common/simplecov.rb
+  h_3633b6af39cc3f 1,4-15
+templates/gem/simplecov.rb
+  s_2a8e4e07cb629c::t_aee13e1cc18111 20
+  h_3633b6af39cc3f 22
+  s_2a8e4e07cb629c::t_507ade38073b8d 6
+  s_2a8e4e07cb629c::t_82e8ef16d941bf 3-5
+  s_2a8e4e07cb629c::t_b1ea193282472c 7-9,17-19
+  h_3633b6af39cc3f 1-2,10-16,21,23-27
+templates/rails/common/rspec.rb
+  s_2a8e4e07cb629c::t_aab51f9fb6c664 1
+  s_2a8e4e07cb629c::t_7382fdb5f325ea 6
+templates/gem.rb
+  h_3633b6af39cc3f 6
+  h_3633b6af39cc3f 1-5,7-36
+templates/gem/rspec/its.rb
+  h_3633b6af39cc3f 1-9
+templates/gem/rspec/method.rb
+  h_3633b6af39cc3f 1-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5ccb3e607eb6a52c61f6661afff09f730580b9b3",
+  "prompts": {},
+  "humans": {
+    "h_3633b6af39cc3f": {
+      "author": "Alexander Senko <Alexander.Senko@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2a8e4e07cb629c": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1794817992359",
+        "model": "unknown"
+      },
+      "human_author": "Alexander Senko <Alexander.Senko@gmail.com>"
+    }
+  }
+}
